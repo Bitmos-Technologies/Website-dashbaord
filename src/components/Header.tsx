@@ -11,7 +11,7 @@ export function Header() {
   return <header className="site-header">
     <Link href="/" className="brand"><span className="brand-mark"><UtensilsCrossed size={19} /></span><span>Bite<span className="brand-dot">Now</span></span></Link>
     <nav className="main-nav" aria-label="Main navigation">
-      <Link href="/#services">Services</Link><Link href="/restaurants">Restaurants</Link><Link href="/menu">Menu</Link><Link href="/how-it-works">How it works</Link><Link href="/contact">Contact</Link>
+      <Link href="/services">Services</Link><Link href="/restaurants">Restaurants</Link><Link href="/menu">Menu</Link><Link href="/how-it-works">How it works</Link><Link href="/contact">Contact</Link>
     </nav>
     <div className="header-actions">
       <Link className="dashboard-link" href="/login">Login</Link>

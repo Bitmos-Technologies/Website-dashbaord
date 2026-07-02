@@ -6,7 +6,7 @@ import { PublicPageShell } from "@/components/PublicPageShell";
 export default function LoginPage() {
   const [submitted, setSubmitted] = useState(false);
   return (
-    <PublicPageShell eyebrow="Login" title="Access your BiteNow account." description="This is a static login wireframe. It validates the interaction locally and does not call an API.">
+    <PublicPageShell eyebrow="Login" title="Access your BiteNow account." description="Sign in to order food or manage your restaurant.">
       <section className="signup-card">
         <form onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}>
           <label>Email<input required type="email" placeholder="you@example.com" /></label>

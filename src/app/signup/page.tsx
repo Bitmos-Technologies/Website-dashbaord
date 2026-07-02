@@ -6,7 +6,7 @@ import { PublicPageShell } from "@/components/PublicPageShell";
 export default function SignUpPage() {
   const [submitted, setSubmitted] = useState(false);
   return (
-    <PublicPageShell eyebrow="Sign up" title="Create a demo BiteNow account." description="This is a non-API wireframe form for customers or restaurant onboarding.">
+    <PublicPageShell eyebrow="Sign up" title="Create a demo BiteNow account." description="Get started as a customer or add your restaurant to BiteNow.">
       <section className="signup-card">
         <form onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}>
           <label>Account type<select><option>Customer</option><option>Restaurant owner</option><option>Hotel manager</option></select></label>
